@@ -154,7 +154,7 @@ def parse_track(trackelement):
 
     global counter, date, day, trackdict
 
-    output = [artistname, albumname, trackname, str(tracknum), str(time), 'L',
+    output = [artistmbid, artistname, albummbid, albumname, trackmbid, trackname, str(tracknum), str(time), 'L',
               str(date), '']
 
     if counter >= tracksperday:
